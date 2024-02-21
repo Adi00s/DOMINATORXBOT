@@ -8,7 +8,7 @@ _python_() {
 _DOMINATORBOT_MAIN() {
     $(_python_ 'from git import Repo
 import sys
-_UPSTREAM_ = "https://github.com/dominator454/DOMINATORXBOT"
+_UPSTREAM_ = "https://github.com/DOMINATOR-XD/DOMINATORXBOT"
 _BRANCH_ = "master"
 repo = Repo.init()
 origin = repo.create_remote("temponame", _UPSTREAM_)
